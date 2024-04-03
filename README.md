@@ -12,21 +12,21 @@ This project implements a Flask web application that serves as a web API for emo
 
 ## Getting Started
 1. Prerequisites:
-  * Python 3.x (https://www.python.org/downloads/)
-  * Flask (https://flask.palletsprojects.com/)
-  * joblib (https://scikit-learn.org/stable/model_persistence.html)
-  * NLTK (for text processing, install using `pip install nltk`)
+   * Python 3.x (https://www.python.org/downloads/)
+   * Flask (https://flask.palletsprojects.com/)
+   * joblib (https://scikit-learn.org/stable/model_persistence.html)
+   * NLTK (for text processing, install using `pip install nltk`)
     
 2. Clone the repository:
-`git clone https://github.com/your_username/emotion-detection-web-api.git`
+   `git clone https://github.com/your_username/emotion-detection-web-api.git`
 
 3. Model File:
-  * Replace 'model.pkl' in app.py with the actual filename of your trained model
-  * Ensure the model file is present in the same directory as `app.py`.
+   * Replace 'model.pkl' in app.py with the actual filename of your trained model
+   * Ensure the model file is present in the same directory as `app.py`.
 
 4. Run and Access the App:
-  * In the terminal, run: `py app.py`
-  * Open `http://127.0.0.1:5000/` in your web browser.
+   * In the terminal, run: `py app.py`
+   * Open `http://127.0.0.1:5000/` in your web browser.
 
 ## Development
 * This code serves as a starting point for further development and customization.
